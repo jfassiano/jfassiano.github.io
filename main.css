@@ -75,9 +75,9 @@ footer {
 /* Menu */
 
 .menu td {
+   text-align: left;
    vertical-align: top;
    font-size: 1.75rem;
-   padding-left: 50px;
 }
 
 .menu td img {
@@ -94,10 +94,27 @@ footer {
    .inicio2 {
       width: 50%;
    }
+
+   .menu td {
+      font-size: 1rem;
+   }
+
+   .menu img {
+      width: 75%;
+   }
 }
 
 @media screen and (max-width: 500px) {
    .inicio2 {
       width: 100%;
+   }
+
+   .menu td {
+      font-size: 0.75rem;
+      width: 100%;
+   }
+
+   .menu img {
+      width: 50%;
    }
 }

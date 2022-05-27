@@ -1,7 +1,25 @@
+function validarFormulario() {
+    var nombre = document.forms["fcontacto"]["nombre"];
+    var email = document.forms["fcontacto"]["email"];
+    var mensaje = document.forms["fcontacto"]["mensaje"];
 
+    if (nombre.value == "") {
+        window.alert("Por favor escribi tu nombre.");
+        nombre.focus();
+        return false;
+    }
 
+    if (email.value == "") {
+        window.alert("Por favor escribi tu e-mail.");
+        email.focus();
+        return false;
+    }
 
-function funcionX () {
-    const btn = document.getElementById("InterYa");
-    btn.style.setProperty("bgcolor","#FF0000")
+    if (mensaje.value == "") {
+        window.alert("Por favor contanos el motivo de tu consulta.");
+        mensaje.focus();
+        return false;
+    }
+
+    return true;
 }

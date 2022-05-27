@@ -26,15 +26,15 @@
         </article>
     <section>
         <article>
-            <form name="fcontacto" method="post" action="">
-                <label for="nombre">Nombre:</label>
-                <input id="nombre" type="text" placeholder="Tu nombre..." maxlength="50">
-                <label for="email">E-mail:</label>
-                <input id="email" type="email" placeholder="Tu e-mail...">
-                <label for="emial">Mensaje:</label>
-                <textarea id="mensaje" placeholder="Contanos como te podemos ayudar..."></textarea>
-                <input type="submit">
-            </form>
+        <form name="fcontacto" action="fcontacto.php" onsubmit="return validarFormulario()" method="post">
+            <p>Nombre: <input type="text" size="60" name="nombre" placeholder="Tu nombre..." /></p>
+            <p>E-mail: <input type="email" size="60" name="email" placeholder="Tu e-mail..." /></p>
+            <p>Mensaje: <textarea cols="60" name="mensaje" placeholder="Contanos como te podemos ayudar..."></textarea></p>
+            <p>
+                <input type="submit" value="Enviar" name="" />
+                <input type="reset" value="Borrar" name="sumit" />
+            </p>
+        </form>
         </article>
     </section>
 </body>

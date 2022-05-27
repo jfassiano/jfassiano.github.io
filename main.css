@@ -1,0 +1,97 @@
+/* Inicio y general */
+
+:root {
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+.cabecera {
+   width: 100%;
+}
+
+/* Menu de navegacion */
+
+.navmenu {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #130f0a;
+ }
+ 
+ .navmenu li {
+   float: left;
+   border-right: 1px solid #bbb;
+ }
+ 
+ .navmenu li a {
+   display: block;
+   color: gray;
+   text-align: center;
+   padding: 16px;
+   text-decoration: none;
+ }
+ 
+ .navmenu li a:hover:not(.activo) {
+   background-color: #dec6a1;
+ }
+ 
+ .activo {
+   color: white !important;
+   background-color: #9c7d55;
+ }
+
+ .logo {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 42px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+ }
+
+/* Cuerpo */
+
+.inicio1 {
+   font-size: 1.5rem;
+}
+
+.inicio2 {
+   float: left;
+   width: 25%;
+}
+
+.inicio2 img {
+   width: 100%;
+}
+
+/* Pie de pagina */
+
+footer {
+   color: white;
+   background-color: #c4a771;
+   padding: 30px;
+   text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+   .cabecera {
+     width: 100%;
+   }
+   .inicio1 {
+      font-size: 1rem;
+   }
+   .inicio2 {
+      width: 50%;
+   }
+}
+
+/* Formulario de contacto */
+
+.fcontacto {
+   font-size: large;
+}
+
+@media screen and (max-width: 500px) {
+   .inicio2 {
+      width: 100%;
+   }
+}

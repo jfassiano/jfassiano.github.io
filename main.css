@@ -72,6 +72,18 @@ footer {
    text-align: center;
 }
 
+/* Menu */
+
+.menu td {
+   vertical-align: top;
+   font-size: 1.75rem;
+   padding-left: 50px;
+}
+
+.menu td img {
+   size: 75%;
+}
+
 @media screen and (max-width: 900px) {
    .cabecera {
      width: 100%;
@@ -82,12 +94,6 @@ footer {
    .inicio2 {
       width: 50%;
    }
-}
-
-/* Formulario de contacto */
-
-.fcontacto {
-   font-size: large;
 }
 
 @media screen and (max-width: 500px) {

@@ -5,6 +5,9 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>CAtFE - Cafe con Gatos - Contacto</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
@@ -14,7 +17,6 @@
             <li class="logo">CAtFE</li>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="elmenu.html">El Menú</a></li>
-            <li><a href="losgatos.html">Los Gatos</a></li>
             <li><a href="instalaciones.html">Instalaciones</a></li>
             <li><a class="activo" href="contacto.html">Contacto</a></li>
         </ul>
@@ -23,9 +25,10 @@
         <article class="inicio1">
             <h2>Formulario de contacto</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <img src="img/catfe_contacto.png">
         </article>
     <section>
-        <article>
+        <article class="inicio1">
         <form name="fcontacto" action="fcontacto.php" onsubmit="return validarFormulario()" method="post">
             <p>Nombre: <input type="text" size="60" name="nombre" placeholder="Tu nombre..." /></p>
             <p>E-mail: <input type="email" size="60" name="email" placeholder="Tu e-mail..." /></p>
@@ -37,5 +40,8 @@
         </form>
         </article>
     </section>
+    <footer>
+        <div>CAtFE © Piedras 1234 - San Telmo - CABA - Argentina</div>
+    </footer>
 </body>
 </html>
